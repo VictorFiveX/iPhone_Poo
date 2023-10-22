@@ -1,0 +1,38 @@
+-------------------------------------
+|            iPhone                |
+-------------------------------------
+| - modelo: String                |
+| - cor: String                   |
+| - numeroTelefone: String        |
+-------------------------------------
+| + fazerChamada(numero: String)  |
+| + receberChamada()              |
+| + reproduzirMusica()            |
+| + navegarInternet()             |
+-------------------------------------
+                    |
+                    |
+                    V
+-------------------------------------
+|       ReprodutorMusical         |
+-------------------------------------
+| + play()                        |
+| + pause()                       |
+| + nextTrack()                   |
+| + previousTrack()               |
+-------------------------------------
+
+-------------------------------------
+|   AparelhoTelefonico             |
+-------------------------------------
+| + ligar()                       |
+| + desligar()                    |
+-------------------------------------
+
+-------------------------------------
+|      NavegadorInternet           |
+-------------------------------------
+| + abrirPagina(webpage: String)  |
+| + fecharPagina()                |
+| + fazerPesquisa(termo: String)  |
+-------------------------------------
